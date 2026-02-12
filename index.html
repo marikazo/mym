@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>M&M 14/02/2026 ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="mainContent">
+       <div class="polaroid left-photo" style="transform: rotate(-2deg);">
+    <img src="foto1.jpg" alt="">
+    <span class="caption">Fotito random 💖</span>
+    </div>
+    <hr class="divider">
+        <h1>💖 ¿Te gustaría pasar el 14 de febrero conmigo? ;) 💖</h1>
+        <p>Vamos a cenar rico y ver una pelicula romantica muy mala de Adam Sandler ❤️</p>
+        <div class="buttons">
+            <button id="yesBtn">¡Chi! 💕</button>
+            <button id="noBtn">Nao nao 😢</button>
+        </div>
+        <hr class="divider">
+        <div class="polaroid right-photo" style="transform: rotate(-2deg);">
+    <img src="foto2.jpg" alt="">
+    <span class="caption">Cerro ❤️</span>
+</div>
+    </div>
+
+    <div class="envelope" id="envelope">
+        <img src="gatito.png" alt="" class="kitty">
+        <div class="flap"></div>
+        
+        <div class="letter">
+            <h2>Para mi Melchi 💌</h2>
+            <hr class="divider">
+            <p>
+                Primero que nada, perdón por hacer estas cosas a último momento. Sé que para vos son muy importantes, y a mi a pesar de los años que llevamos juntos, me sigue costando un poco (un poco bastante). <br> <br>
+Quiero que sepas que si hago estas cosas, es porque realmente me importas, quiero mantener lo nuestro y quiero que seas feliz conmigo. Estoy casi seguro que no haría esto por nadie más a menos que me pague jeje 🤗. <br>  <br>
+Aunque no lo demuestre mucho, estoy enamorado de vos Melflama y espero que en futuras fechas importantes pueda darte regalos mucho mejores que este 🎁💌. <br> Quien sabe, capaz de acá a unos años nos casamos 😉 <br> <br>
+<hr class="divider">
+Feliz dia de los enamorados Melshinigami 👩‍❤️‍💋‍👨<br>
+Te amo mucho por si no lo sabías ❤️
+<hr class="divider">
+💘 14/02/2026 💘 <br><br><br><br><br><br><br>
+
+            </p>
+            <span class="trash">btw, esta carta va a estar hosteada en este link hasta que GitHub decida que es momento de que no exista mas uwu 🔥🔥🔥</span>
+            
+        </div>
+    </div>
+    
+    <div class="music-player hidden" id="musicPlayer">
+
+    <img src="cover.jpg" alt="Cover" class="cover">
+
+    <div class="track-info">
+        <div class="track-title">The Only Exception💖</div>
+        <div class="track-artist">Paramore</div>
+    </div>
+
+    <button id="playPauseBtn" class="control-btn">▶</button>
+
+    <div class="volume-container">
+        <span id="volumeIcon">🔊</span>
+        <input 
+            type="range" 
+            id="volumeControl" 
+            min="0" 
+            max="1" 
+            step="0.01" 
+            value="1"
+        >
+    </div>
+</div>
+
+
+
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+<audio id="noSound" src="error.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
